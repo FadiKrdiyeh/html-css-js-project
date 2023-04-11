@@ -1,0 +1,541 @@
+/* This file for responsive design... */
+
+/* *********************************************************************************************************************** */
+
+/*************** Start Header Section ***************/
+
+/* Small & Medium screens only [Mobile] */
+@media (max-width: 991px) {
+    #header {
+        min-height: 70px;
+    }
+
+    #header .nav-container {
+        display: block;
+    }
+
+    #header .nav-container .navbar-toggler {
+        display: block;
+    }
+
+    #header .nav-container .navbar-collapse {
+        margin-left: 25px;
+    }
+    #header .nav-container .navbar-collapse.collapse {
+        display: none;
+    }
+    #header .nav-container .navbar-collapse.show {
+        display: block;
+        margin-top: 30px;
+    }
+
+    #header .nav-container .navbar-collapse .navbar-nav {
+        display: block;
+    }
+}
+/**************** End Header Section ****************/
+
+/* *********************************************************************************************************************** */
+
+/*************** Start Home Section ***************/
+
+/* Small screens only [Mobile] */
+@media (max-width: 575px) {
+    .container#homePage .main-title h1 {
+        font-size: 14px;
+        text-align: right;
+        padding: 15px 0;
+        padding-right: 20px;
+        height: 50px;
+    }
+
+    .container .main-title .before-main-title {
+        height: 50px;
+        width: 50px;
+        font-size: 12px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .container .main-title .before-main-title::after {
+        border-top: 30px solid var(--main-color);
+        border-right: 30px solid var(--main-color);
+        border-top-right-radius: 10px;
+        left: 33px;
+    }
+    .container .why-us-container,
+    .container .getintouch-container {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .container .why-us-container .top-right-image img {
+        right: 10px;
+    }
+    .container .why-us-container .why-us-part .why-us-content .why-us-title {
+        font-size: 25px;
+    }
+    .container
+        .why-us-container
+        .why-us-part
+        .why-us-content
+        .why-us-paragraph {
+        font-size: 18px;
+    }
+    .container .why-us-container .why-us-statistics {
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .container .why-us-container .why-us-statistics .statistics-item {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+    .container .why-us-container .why-us-statistics .statistics-item .count {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .container .why-us-container .why-us-statistics .statistics-item .title {
+        font-size: 25px;
+    }
+    .container
+        .getintouch-container
+        .getintouch-part
+        .getintouch-content
+        .getintouch-title {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .container
+        .getintouch-container
+        .getintouch-part
+        .getintouch-content
+        .getintouch-paragraph {
+        font-size: 14px;
+    }
+    .container .getintouch-container .getintouch-button .contact-us-btn {
+        width: 70%;
+    }
+}
+
+/* Small & Medium screens only [Tablet] */
+@media (max-width: 991px) {
+    .container .why-us-container,
+    .container .getintouch-container {
+        padding-top: 75px;
+    }
+    .container .why-us-container .top-right-image img {
+        width: 75px;
+        height: 75px;
+    }
+    .container .why-us-container .why-us-part {
+        flex-direction: column-reverse;
+    }
+    .container .why-us-container .why-us-part .why-us-image {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .container .why-us-container .why-us-part .why-us-content {
+        width: 100%;
+    }
+    .container .getintouch-container .top-right-image img {
+        width: 75px;
+        height: 75px;
+    }
+    .container .getintouch-container .getintouch-part {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 30px;
+    }
+    .container .getintouch-container .getintouch-part .getintouch-image {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .container .getintouch-container .getintouch-part .getintouch-content {
+        width: 100%;
+    }
+    .container
+        .getintouch-container
+        .getintouch-part
+        .getintouch-content
+        .getintouch-paragraph {
+        font-size: 18px;
+        max-width: 100%;
+    }
+}
+
+/* Medium screens only [Tablet] */
+@media (min-width: 576px) and (max-width: 991px) {
+    .container#homePage .main-title h1 {
+        text-align: right;
+        font-size: 27px;
+        padding-right: 20px;
+    }
+    .container .why-us-container {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .container .why-us-container .why-us-part .why-us-content .why-us-title {
+        font-size: 35px;
+    }
+    .container
+        .why-us-container
+        .why-us-part
+        .why-us-content
+        .why-us-paragraph {
+        font-size: 20px;
+    }
+    .container .why-us-container .why-us-statistics .statistics-item .count {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    .container .why-us-container .why-us-statistics .statistics-item .title {
+        font-size: 20px;
+    }
+    .container .getintouch-container .getintouch-button .contact-us-btn {
+        width: 50%;
+    }
+    .container
+        .getintouch-container
+        .getintouch-part
+        .getintouch-content
+        .getintouch-title {
+        margin-bottom: 20px;
+    }
+}
+/**************** End Home Section ****************/
+
+/* *********************************************************************************************************************** */
+
+/*************** Start Contact Us Section ***************/
+
+/* Small screens only [Mobile] */
+@media (max-width: 575px) {
+    .container .background-image {
+        height: 200px;
+        margin-bottom: 30px;
+    }
+    .container .contact-info-container {
+        padding: 30px 20px 50px;
+        flex-direction: column;
+    }
+    .container .contact-info-container .contact-info {
+        width: 100%;
+    }
+
+    .container .contact-info-container .contact-info .contact-info-title {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .container .contact-info-container .contact-info ul li {
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+    .container .contact-info-container .contact-info ul li i {
+        font-size: 30px;
+        margin-right: 30px;
+    }
+
+    .container .contact-info-container .location-container {
+        width: 100%;
+    }
+}
+
+/* Medium screens only [Tablet] */
+@media (min-width: 576px) and (max-width: 991px) {
+    .container .background-image {
+        height: 200px;
+        margin-bottom: 30px;
+    }
+
+    .container .contact-info-container {
+        padding: 30px 50px 50px;
+    }
+    .container .contact-info-container .contact-info {
+        width: 50%;
+    }
+
+    .container .contact-info-container .contact-info .contact-info-title {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .container .contact-info-container .contact-info ul li {
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+    .container .contact-info-container .contact-info ul li i {
+        font-size: 30px;
+        margin-right: 30px;
+    }
+
+    .container .contact-info-container .location-container {
+        width: 50%;
+    }
+}
+/**************** End Contact Us Section ****************/
+
+/* *********************************************************************************************************************** */
+
+/**************** Start About U Section ****************/
+/* Small screens only [Mobile] */
+@media (max-width: 575px) {
+    .container .about-container {
+        padding: 0px 10px 50px;
+    }
+    .container .about-container .about-content {
+        font-size: 20px;
+    }
+    .container .about-container .about-btn {
+        width: 75%;
+    }
+}
+
+/* Medium screens only [Tablet] */
+@media (min-width: 576px) and (max-width: 991px) {
+    .container .about-container {
+        padding: 0px 30px 50px;
+    }
+    .container .about-container .about-btn {
+        width: 50%;
+    }
+}
+/* Medium screens and up [Tablet] */
+@media (min-width: 576px) {
+}
+
+/* Large screens [PCs] */
+@media (min-width: 992px) {
+}
+/**************** End About U Section ****************/
+
+/* *********************************************************************************************************************** */
+
+/*************** Start Products Section ***************/
+
+/* Small screens only [Mobile] */
+@media (max-width: 575px) {
+    .container .form-container .form-title {
+        padding: 10px;
+        border: 2px solid #000;
+        margin: 0 5px;
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+
+    .container .products-container {
+        padding: 30px 20px 50px;
+    }
+    .container .products-container .product-item {
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 30px;
+        padding-bottom: 70px;
+    }
+
+    .container .products-container .product-item .product-title {
+        font-size: 20px;
+        padding: 5px;
+        margin-bottom: 5px;
+    }
+
+    .container .products-container .product-item .product-price {
+        font-size: 14px;
+    }
+
+    .container .products-container .product-item .product-details .detail-item {
+        font-size: 18px;
+    }
+    .container
+        .products-container
+        .product-item
+        .product-details
+        .detail-item
+        i {
+        font-size: 20px;
+    }
+
+    .container .products-container .product-item .product-country {
+        font-size: 12px;
+    }
+
+    .container
+        .products-container
+        .product-item
+        .product-country
+        .country-flag {
+        width: 30px;
+    }
+
+    #imageViewer .slider-container p img {
+        max-height: auto;
+        max-width: 90vw;
+    }
+
+    .slider-container
+        .csslider.infinity
+        > input:last-of-type:checked
+        ~ .arrows
+        label.goto-first,
+    .slider-container
+        .csslider
+        > input:nth-of-type(1):checked
+        ~ .arrows
+        > label:nth-of-type(2),
+    .slider-container
+        .csslider
+        > input:nth-of-type(2):checked
+        ~ .arrows
+        > label:nth-of-type(3),
+    .slider-container
+        .csslider
+        > input:nth-of-type(3):checked
+        ~ .arrows
+        > label:nth-of-type(4),
+    .slider-container
+        .csslider
+        > input:nth-of-type(4):checked
+        ~ .arrows
+        > label:nth-of-type(5),
+    .slider-container
+        .csslider
+        > input:nth-of-type(5):checked
+        ~ .arrows
+        > label:nth-of-type(6),
+    .slider-container
+        .csslider
+        > input:nth-of-type(6):checked
+        ~ .arrows
+        > label:nth-of-type(7),
+    .slider-container
+        .csslider
+        > input:nth-of-type(7):checked
+        ~ .arrows
+        > label:nth-of-type(8),
+    .slider-container
+        .csslider
+        > input:nth-of-type(8):checked
+        ~ .arrows
+        > label:nth-of-type(9),
+    .slider-container
+        .csslider
+        > input:nth-of-type(9):checked
+        ~ .arrows
+        > label:nth-of-type(10),
+    .slider-container
+        .csslider
+        > input:nth-of-type(10):checked
+        ~ .arrows
+        > label:nth-of-type(11) {
+        right: 40px;
+    }
+    .slider-container .csslider > .arrows label {
+        top: 0;
+    }
+    .container #imageViewer .close-viewer-btn {
+        font-size: 20px;
+    }
+}
+
+/* Medium screens only [Tablet] */
+@media (min-width: 576px) and (max-width: 991px) {
+    .container .products-container {
+        padding: 30px 50px 50px;
+    }
+    .container .products-container .product-item {
+        width: 45%;
+        padding: 10px;
+        margin-bottom: 30px;
+        padding-bottom: 50px;
+    }
+
+    .container .products-container .product-item .product-title {
+        font-size: 22px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .container .products-container .product-item .product-price {
+        font-size: 18px;
+    }
+
+    .container .products-container .product-item .product-details .detail-item {
+        font-size: 20px;
+    }
+    .container
+        .products-container
+        .product-item
+        .product-details
+        .detail-item
+        i {
+        font-size: 22px;
+    }
+
+    .container .products-container .product-item .product-country {
+        font-size: 14px;
+    }
+
+    .container
+        .products-container
+        .product-item
+        .product-country
+        .country-flag {
+        width: 35px;
+    }
+}
+/* Medium screens and up [Tablet] */
+@media (min-width: 576px) {
+}
+
+/* Large screens [PCs] */
+@media (min-width: 992px) {
+}
+/**************** End Products Section ****************/
+
+/* *********************************************************************************************************************** */
+
+/*************** Start Footer Section ***************/
+
+/* Small screens only [Mobile] */
+@media (max-width: 575px) {
+    #footer .footer-content .footer-item h4 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    #footer .footer-content .footer-item ul li {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    #footer .footer-content .footer-item ul li i.fab {
+        width: 40px;
+        height: 40px;
+    }
+    #footer .footer-content .footer-item .about-us-btn {
+        font-size: 18px;
+        width: 100%;
+    }
+}
+
+/* Small & Medium screens only [Tablet] */
+@media (max-width: 991px) {
+    #footer .footer-links {
+        justify-content: center;
+    }
+    #footer .footer-links .footer-logo {
+        margin-right: 30px;
+    }
+
+    #footer .footer-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #footer .footer-content .footer-item {
+        border: 1px solid #000;
+        padding: 30px;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+/**************** End Footer Section ****************/
